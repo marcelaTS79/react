@@ -1,0 +1,85 @@
+/* Estilos para los títulos en la cabecera */
+.h1cab, .h2cab{
+    text-align: center;
+    color: white;
+}
+
+/* Estilos para la imagen de la cabecera */
+.imgcab{
+    width: 100%;
+    height: 300px;
+}
+/* Contenedor general */
+.container{
+    width: 90%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* Bloque de la cabecera */
+.bloque{
+    width: 100%;
+    height: auto;
+    float: left;
+    background-color: gray;
+}
+
+/* Elementos del menú */
+.item{
+    display: inline-block;
+    width: 16.5%;
+    text-align: center;
+    border-right: 1px solid white;
+    height: 30px;
+    padding-top: 5px;
+}
+
+.item:hover{
+    background-color: white;
+    color: gray;
+}
+.divseccion{
+    width: 100%;
+    height: auto;
+    background-color: gray;
+}
+.imgseccion{
+    width: 31%;
+    height: 250px;
+    margin: 1%;
+    border-radius: 10px;
+}
+
+/* Imagen del pie */
+.imgpie {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos para el contenedor del logo */
+.logo-container {
+    display: inline-block;
+    margin-left: 10px; /* Ajusta el margen según sea necesario */
+}
+
+/* Estilos para el logo */
+.logo {
+    height: 80px; /* Ajusta el tamaño según sea necesario */
+    vertical-align: middle; /* Alinea verticalmente el logo con los elementos del menú */
+}
+
+/* Estilos para el pie de página */
+.pie {
+    width: 100%;
+    background-color: #333; 
+    color: white; 
+    text-align: center; 
+    padding: 20px 0; 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
